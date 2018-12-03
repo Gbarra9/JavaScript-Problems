@@ -55,9 +55,9 @@ function reverseVowel(input) {
     // initialize empty array and store vowels from input into empty array
     let arrayVowels = []
     
-    // split method turns string into array of items(each character is an item of array)
+    // split method creates an array of items(each character is an item of array) based on the string value
     // forEach callback function iterates through each array item
-    // if statement checks if character is a vowel, apply push method to store and add vowel to end of the           arrayVowels array
+    // if statement checks if character is a vowel, apply push method to store and add vowel to end of the arrayVowels array
     input.split('').forEach(function (val) { 
         if (val === 'a' || val === 'e' || val === 'i' || val === 'o' || val === 'u') { 
             return arrayVowels.push(val)
